@@ -14,20 +14,7 @@ T Max(T arr[], int size){
 }
 
 template <typename T>
-T Min(T arr[], int size){
-    T min = INT_MAX;
-
-    for(int i = 0; i < size; i++){
-        if(arr[i] < min){
-            min = arr[i];
-        }
-    }
-
-    return min;
-}
-template <typename T>
 void CountDuplicatesUnsortedHash(T arr[], int size){
-    T min = Min(arr, size);
     T max = Max(arr, size);
     T hash[max+1];
 
