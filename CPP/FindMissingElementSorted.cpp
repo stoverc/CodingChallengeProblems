@@ -36,5 +36,5 @@ int main(){
     std::cout << "Hello, World!" << std::endl;
 
     int *init = new int[11]{1,2,3,4,6,7,8,9,10,11,12};
-    std::cout << Max(init,11) << " " << Sum(init,11) << " " << FindMissingElementSorted(init,11);
+    std::cout << FindMissingElementSorted(init,11);
 }
