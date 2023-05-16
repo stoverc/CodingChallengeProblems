@@ -1,4 +1,5 @@
 #include <iostream>
+
 template <typename T>
 T Max(T arr[], int size){
     T max = INT_MIN;
@@ -33,8 +34,6 @@ T FindMissingElementSorted(T arr[], int size){
 }
 
 int main(){
-    std::cout << "Hello, World!" << std::endl;
-
     int *init = new int[11]{1,2,3,4,6,7,8,9,10,11,12};
-    std::cout << FindMissingElementSorted(init,11);
+    std::cout << FindMissingElementSorted(init,11) << std::endl;
 }
