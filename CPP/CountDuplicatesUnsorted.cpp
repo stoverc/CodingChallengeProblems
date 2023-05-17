@@ -1,31 +1,6 @@
 #include <iostream>
 
 template <typename T>
-T Max(T arr[], int size){
-    T max = INT_MIN;
-
-    for(int i = 0; i < size; i++){
-        if(arr[i] > max){
-            max = arr[i];
-        }
-    }
-
-    return max;
-}
-
-template <typename T>
-T Min(T arr[], int size){
-    T min = INT_MAX;
-
-    for(int i = 0; i < size; i++){
-        if(arr[i] < min){
-            min = arr[i];
-        }
-    }
-
-    return min;
-}
-template <typename T>
 void CountDuplicatesUnsorted(T arr[], int size){
     for(int i = 0; i < size-1; i++){
         int count = 1;
