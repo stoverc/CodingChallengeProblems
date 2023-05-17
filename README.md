@@ -15,6 +15,7 @@ A repository for me to keep up with coding challenge problems (think: [LeetCode]
     <li>After finishing the <i>Section 7</i> algorithms (above), added <code>Print</code> functionality to all.</lli>
     <li>From <i>Section 8</i>, added <code>StringToggleCase</code>, <code>CountConsonantsAndVowels</code>, <code>CountWords</code>, <code>StringReverse</code>, <code>CompareStrings</code>, <code>IsPalindrome</code>, <code>StringCountDuplicates</code>, <code>StringCountDuplicatesHash</code>, <code>StringFindDuplicatesBitwise</code>, and <code>IsAnagram</code>, and the related <code>ToUpperCase</code> and <code>ToLowerCase</code>.</li>
     <li>Made a small correction to <code>CountDuplicatesUnsortedHash</code>.</li>
+    <li>Eventually: Added a <code>Udemy</code> subdirectory to future-proof the repo.</code>
 </ol>
 <h3>16 May 2023</h3>
 <ol>
