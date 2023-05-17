@@ -1,6 +1,22 @@
 #include <iostream>
 
 template <typename T>
+void Print (T arr[], int size){
+    std::cout << "[";
+
+    for(int i = 0; i < size; i++){
+        if(i != size-1){
+            std::cout << arr[i] << ", ";
+        }
+        else{
+            std::cout << arr[i] << "]";
+        }
+    }
+
+    std::cout << std::endl;
+}
+
+template <typename T>
 T Max(T arr[], int size){
     T max = INT_MIN;
 
@@ -49,5 +65,6 @@ void FindMissingElementUnsortedHash(T arr[], int size){
 
 int main(){
     int *init = new int[10]{3,7,4,9,12,6,1,11,2,10};
+    Print(init,10);
     FindMissingElementUnsortedHash(init,10);
 }

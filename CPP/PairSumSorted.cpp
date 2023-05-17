@@ -18,8 +18,6 @@ void Print (T arr[], int size){
 
 template <typename T>
 void PairSumSorted(T arr[], int size, T sum){
-    int max = Max(arr,size);
-    
     int i = 0, j = size - 1;
 
     while(i < j){

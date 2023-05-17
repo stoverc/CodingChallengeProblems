@@ -1,6 +1,22 @@
 #include <iostream>
 
 template <typename T>
+void Print (T arr[], int size){
+    std::cout << "[";
+
+    for(int i = 0; i < size; i++){
+        if(i != size-1){
+            std::cout << arr[i] << ", ";
+        }
+        else{
+            std::cout << arr[i] << "]";
+        }
+    }
+
+    std::cout << std::endl;
+}
+
+template <typename T>
 T Max(T arr[], int size){
     T max = INT_MIN;
 
@@ -36,5 +52,6 @@ void CountDuplicatesSortedHash(T arr[], int size){
 
 int main(){
     int *init = new int[10]{3,6,8,8,10,12,15,15,15,20};
+    Print(init,10);
     CountDuplicatesSortedHash(init,10);
 }

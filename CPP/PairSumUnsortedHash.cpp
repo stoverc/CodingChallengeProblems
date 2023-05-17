@@ -31,7 +31,7 @@ T Max(T arr[], int size){
 
 template <typename T>
 void PairSumUnsortedHash(T arr[], int size, T sum){
-    int max = Max(arr,size);
+    T max = Max(arr,size);
     T hash[max+1];
 
     for(int i = 0; i < max+1; i++){
