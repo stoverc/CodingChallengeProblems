@@ -6,7 +6,7 @@ A repository for me to keep up with coding challenge problems (think: [LeetCode]
 <h3>17 May 2023</h3>
 <ol>
     <li>In <code>CountDuplicatesUnsorted</code>: Removed unused <code>Min</code> and <code>Max</code> functions.</li>
-    <li>Later, added <code>PairSumUnsorted</code>, <code>PairSumUnsortedHash</code>, ... from <a href = "https://www.udemy.com/">Udemy</a>'s <b>Mastering Data Structures & Algorithms using C and C++</b> course (<a href = "https://www.udemy.com/course/datastructurescncpp/">link</a>).</li>
+    <li>Later, added <code>PairSumUnsorted</code>, <code>PairSumUnsortedHash</code>, <code>PairSumSorted</code>, ... from <a href = "https://www.udemy.com/">Udemy</a>'s <b>Mastering Data Structures & Algorithms using C and C++</b> course (<a href = "https://www.udemy.com/course/datastructurescncpp/">link</a>).</li>
 </ol>
 <h3>16 May 2023</h3>
 <ol>
