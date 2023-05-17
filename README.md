@@ -7,6 +7,7 @@ A repository for me to keep up with coding challenge problems (think: [LeetCode]
 <ol>
     <li>In <code>CountDuplicatesUnsorted</code>: Removed unused <code>Min</code> and <code>Max</code> functions.</li>
     <li>Later, added <code>PairSumUnsorted</code>, <code>PairSumUnsortedHash</code>, <code>PairSumSorted</code>, and <code>SinglePassMaxMin</code> from <a href = "https://www.udemy.com/">Udemy</a>'s <b>Mastering Data Structures & Algorithms using C and C++</b> course (<a href = "https://www.udemy.com/course/datastructurescncpp/">link</a>).</li>
+    <li>After finishing the <i>Section 7</i> algorithms (above), added <code>Print</code> functionality to all.</lli>
 </ol>
 <h3>16 May 2023</h3>
 <ol>
