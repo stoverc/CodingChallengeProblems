@@ -38,12 +38,6 @@ void PairSumUnsortedHash(T arr[], int size, T sum){
         hash[i] = 0;
     }
 
-    // for(int i = 0; i < size; i++){
-    //     hash[arr[i]]++;
-    // }
-
-    //Print(hash,max+1);
-
     for(int i = 0; i < size; i++){
         if(sum-arr[i] >= 0 && hash[sum-arr[i]] != 0){
             std::cout << arr[i] << "+" << sum-arr[i] << "=" << sum << std::endl;
