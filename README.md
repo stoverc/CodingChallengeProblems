@@ -1,7 +1,7 @@
 # Coding Challenge Problems
 A repository for me to keep up with coding challenge problems (think: [LeetCode](https://leetcode.com/)) from various sources.
 
-# To-Do
+## To-Do
 <ul>
     <li>Go through <i>Section 8</i> files to see whether <code>size</code> is needed throughout.</li>
 </ul>
