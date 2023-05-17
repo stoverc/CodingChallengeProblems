@@ -3,6 +3,10 @@ A repository for me to keep up with coding challenge problems (think: [LeetCode]
 
 <details>
 <summary><h2>Changelog</h2></summary>
+<h3>17 May 2023</h3>
+<ol>
+    <li>In <code>CountDuplicatesUnsorted</code>: Removed unused <code>Min</code> and <code>Max</code> functions.</li>
+</ol>
 <h3>16 May 2023</h3>
 <ol>
     <li>Initial commit + <code>README</code>.</li>
