@@ -3,7 +3,8 @@ A repository for me to keep up with coding challenge problems (think: [LeetCode]
 
 ## To-Do
 <ul>
-    
+    <li>More exercises.</li>
+    <li>More languages.</li>
 </ul>
 
 <details>
