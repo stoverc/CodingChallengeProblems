@@ -13,7 +13,7 @@ A repository for me to keep up with coding challenge problems (think: [LeetCode]
 <ol>
     <li>Modified some <i>Section 8</i> files to eliminate unnecessary <code>size</code> parameter + updated TODO list above.</li>
     <li>Later, modified more <i>Section 8</i> files to rename <code>arr</code> parameter as <code>A</code>.</li>
-    <li>Completed first versions of <code>StringPermutations</code>, ... .</li>
+    <li>Completed first versions of <code>StringPermutations</code>, ... , and made small edits throughout.</li>
 </ol>
 <h3>17 May 2023</h3>
 <ol>
