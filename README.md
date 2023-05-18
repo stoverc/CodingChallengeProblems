@@ -3,11 +3,15 @@ A repository for me to keep up with coding challenge problems (think: [LeetCode]
 
 ## To-Do
 <ul>
-    <li>Go through <i>Section 8</i> files to see whether <code>size</code> is needed throughout.</li>
+    
 </ul>
 
 <details>
 <summary><h2>Changelog</h2></summary>
+<h3>18 May 2023</h3>
+<ol>
+    <li>Modified some <i>Section 8</i> files to eliminate unnecessary <code>size</code> parameter + updated TODO list above.</li>    
+</ol>
 <h3>17 May 2023</h3>
 <ol>
     <li>In <code>CountDuplicatesUnsorted</code>: Removed unused <code>Min</code> and <code>Max</code> functions.</li>
