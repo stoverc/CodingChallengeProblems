@@ -16,15 +16,32 @@ void Print (T arr[], int size){
     std::cout << std::endl;
 }
 
+template <typename T>
+void Print (T arr[], int size, int count){
+    std::cout << count << ". [";
+
+    for(int i = 0; i < size; i++){
+        if(i != size-1){
+            std::cout << arr[i] << ", ";
+        }
+        else{
+            std::cout << arr[i] << "]";
+        }
+    }
+
+    std::cout << std::endl;
+}
+
 void StringPermutations(char A[], int size, int k){
     static int *B = new int[size]{0};
     static char *res = new char[size]{};
+    static int count = 1;
 
     int i;
 
     if(A[k] == '\0'){
         res[k] = '\0';
-        Print(res,size);
+        Print(res,size,count++);
     }
     else{
         for(i = 0; A[i] != '\0'; i++){
@@ -39,7 +56,7 @@ void StringPermutations(char A[], int size, int k){
 }
 
 int main(){
-    char A[] = "ABC";
-    Print(A,3);
-    StringPermutations(A,3,0);
+    char A[] = "ABCD";
+    Print(A,4);
+    StringPermutations(A,4,0);
 }
