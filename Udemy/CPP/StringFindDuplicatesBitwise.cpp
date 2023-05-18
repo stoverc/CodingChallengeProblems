@@ -16,15 +16,15 @@ void Print (T arr[], int size){
     std::cout << std::endl;
 }
 
-void StringFindDuplicatesBitwise(char arr[]){
+void StringFindDuplicatesBitwise(char A[]){
     int H = 0, x = 0;
 
-    for(int i = 0; arr[i] != '\0'; i++){
+    for(int i = 0; A[i] != '\0'; i++){
         x = 1;
-        x = x << (arr[i]-97);
+        x = x << (A[i]-97);
 
         if((x & H) > 0){
-            std::cout << arr[i] << " is duplicate." << std::endl;
+            std::cout << A[i] << " is duplicate." << std::endl;
         }
         else{
             H = x | H;

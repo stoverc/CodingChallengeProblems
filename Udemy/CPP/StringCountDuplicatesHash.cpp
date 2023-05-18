@@ -16,21 +16,21 @@ void Print (T arr[], int size){
     std::cout << std::endl;
 }
 
-void StringCountDuplicatesHash(char arr[]){
+void StringCountDuplicatesHash(char A[]){
     int hash[26];
 
     for(int i = 0; i < 26; i++){
         hash[i] = 0;
     }
 
-    for(int i = 0; arr[i] != '\0'; i++){
-        hash[arr[i]-97]++;
+    for(int i = 0; A[i] != '\0'; i++){
+        hash[A[i]-97]++;
     }
 
-    for(int i = 0; arr[i] != '\0'; i++){
-        if(hash[arr[i]-97] > 1){
-            std::cout << arr[i] << " is appearing " << hash[arr[i]-97]  << " times." << std::endl;
-            hash[arr[i]-97]--;
+    for(int i = 0; A[i] != '\0'; i++){
+        if(hash[A[i]-97] > 1){
+            std::cout << A[i] << " is appearing " << hash[A[i]-97]  << " times." << std::endl;
+            hash[A[i]-97]--;
         }
     }
 
