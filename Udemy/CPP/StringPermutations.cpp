@@ -17,7 +17,7 @@ void Print (T arr[], int size){
 }
 
 void StringPermutations(char A[], int size, int k){
-    static int B[10] = {0};
+    static int *B = new int[size]{0};
     static char *res = new char[size]{};
 
     int i;
