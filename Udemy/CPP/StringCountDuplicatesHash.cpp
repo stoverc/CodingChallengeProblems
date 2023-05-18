@@ -16,7 +16,7 @@ void Print (T arr[], int size){
     std::cout << std::endl;
 }
 
-void StringCountDuplicatesHash(char arr[], int size){
+void StringCountDuplicatesHash(char arr[]){
     int hash[26];
 
     for(int i = 0; i < 26; i++){
@@ -39,5 +39,5 @@ void StringCountDuplicatesHash(char arr[], int size){
 int main(){
     char A[] = "finding";
     Print(A,7);
-    StringCountDuplicatesHash(A,7);
+    StringCountDuplicatesHash(A);
 }

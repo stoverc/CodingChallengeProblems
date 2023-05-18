@@ -16,7 +16,7 @@ void Print (T arr[], int size){
     std::cout << std::endl;
 }
 
-void StringFindDuplicatesBitwise(char arr[], int size){
+void StringFindDuplicatesBitwise(char arr[]){
     int H = 0, x = 0;
 
     for(int i = 0; arr[i] != '\0'; i++){
@@ -36,5 +36,5 @@ void StringFindDuplicatesBitwise(char arr[], int size){
 int main(){
     char A[] = "finding";
     Print(A,7);
-    StringFindDuplicatesBitwise(A,7);
+    StringFindDuplicatesBitwise(A);
 }
