@@ -9,6 +9,10 @@ A repository for me to keep up with coding challenge problems (think: [LeetCode]
 
 <details>
 <summary><h2>Changelog</h2></summary>
+<h3>31 May 2023</h3>
+<ol>
+    <li>Beginning of <code>LeetCode</code>, and initial commit of <code>LeetCode/CPP/1TwoSum.cpp</code>.</li>
+</ol>
 <h3>18 May 2023</h3>
 <ol>
     <li>Modified some <i>Section 8</i> files to eliminate unnecessary <code>size</code> parameter + updated TODO list above.</li>
