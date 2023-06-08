@@ -2,11 +2,10 @@
 A repository for me to keep up with coding challenge problems (think: [LeetCode](https://leetcode.com/)) from various sources.
 
 ## To-Do
-<ul>
-    <li>More exercises.</li>
-    <li>More languages.</li>
-</ul>
-
+    * Refactor `*Hash` challenge problems to abandon generics in favor of `int` types (because otherwise, binning for floats, etc., is bad news!).
+    * More exercises.
+    * More languages.
+    
 <details>
 <summary><h2>Changelog</h2></summary>
 <h3>31 May 2023</h3>
